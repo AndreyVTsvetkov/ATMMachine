@@ -13,7 +13,7 @@ public class AtmProcessor {
         return true;
     }
 
-    public void Start() {
+    public void start() {
         int pin;
         AtmTransaction transaction = new AtmTransaction();
         //чтение карты
@@ -37,7 +37,6 @@ public class AtmProcessor {
             dialog.viewBalance(transaction.balance);
         }
     }
-
     public boolean checkFunctionality() {
         return true;
     }

@@ -26,7 +26,6 @@ public class VisualDialog {
             default: return Actions.BALANCE;
         }
     }
-
     public void viewBalance(double sum) {
         System.out.println("Текущий баланс: " + sum);
     }

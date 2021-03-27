@@ -10,10 +10,10 @@ import java.util.Calendar;
 
 @Data
 public class BankCardDetails {
-    String PinCode;
-    String BankName;
-    String CardNum;
-    Calendar DateEnd;
-    String UserName;
-    int CvcCvv2Code;
+    public String PinCode;
+    public String BankName;
+    public String CardNum;
+    public Calendar DateEnd;
+    public String UserName;
+    public int CvcCvv2Code;
 }

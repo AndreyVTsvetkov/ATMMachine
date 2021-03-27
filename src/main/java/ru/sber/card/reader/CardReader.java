@@ -10,7 +10,6 @@ public class CardReader {
         bankcard.BankName = "Сбербанк";
         bankcard.CardNum = "0000 1234 4567 8900";
 
-
         return bankcard;
     }
 }
