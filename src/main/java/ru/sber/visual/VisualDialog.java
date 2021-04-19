@@ -5,11 +5,28 @@ import ru.sber.atm.processor.Actions;
 import java.util.Scanner;
 
 public class VisualDialog {
-    public int requestPin() {
+    public String requestCardNum(){
+        System.out.println("Введите номер карты...");
+        Scanner console = new Scanner(System.in);
+        return console.nextLine();
+    }
+    public String requestPin() {
         System.out.println("Введите пин код...");
+        Scanner console = new Scanner(System.in);
+        return console.nextLine();
+    }
+    public int requestYearOfValidityPeriod() {
+        System.out.println("Введите год окончания срока действия карты...");
         Scanner console = new Scanner(System.in);
         return console.nextInt();
     }
+
+    public int requestMonthOfValidityPeriod() {
+        System.out.println("Введите месяц окончания срока действия карты...");
+        Scanner console = new Scanner(System.in);
+        return console.nextInt();
+    }
+
     public int requestSum() {
         System.out.println("Введите сумму в рублях");
         Scanner console = new Scanner(System.in);
