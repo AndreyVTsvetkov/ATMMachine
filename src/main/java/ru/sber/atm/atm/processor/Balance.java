@@ -1,4 +1,4 @@
-package ru.sber.atm.processor;
+package ru.sber.atm.atm.processor;
 
 import lombok.Getter;
 

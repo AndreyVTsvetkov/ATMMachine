@@ -1,4 +1,4 @@
-package ru.sber.atm.processor;
+package ru.sber.atm.atm.processor;
 
 public enum Actions {
     GET_AMOUNT,
